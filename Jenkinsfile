@@ -14,7 +14,7 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build') {
+        stage('Clean') {
             steps {
                 sh """
                 #!/bin/bash
