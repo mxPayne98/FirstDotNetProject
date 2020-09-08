@@ -3,7 +3,6 @@ pipeline {
     agent {
         docker {
             image 'mcr.microsoft.com/dotnet/core/sdk:3.1'
-            // args '-v $HOME/.m2:/root/.m2'
         }
     }
     environment {
@@ -13,6 +12,15 @@ pipeline {
         stage('Preparation') {
             steps {
                 checkout scm
+            }
+        }
+        stage('Build') {
+            steps {
+                sh """
+                #!/bin/bash
+                cd FirstCoreProject
+                dotnet clean
+                """
             }
         }
         stage('Build') {
