@@ -10,6 +10,7 @@
         "dependencies": {
           "FirstLib": "1.0.0",
           "Microsoft.TestPlatform.TestHost": "16.7.1",
+          "coverlet.msbuild": "2.9.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
@@ -17,6 +18,7 @@
           "FirstCoreProject.dll": {}
         }
       },
+      "coverlet.msbuild/2.9.0": {},
       "Microsoft.CSharp/4.0.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1084,6 +1086,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.msbuild/2.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t+2du2q+z0FFklyP6HGSoKssRj0NequInLvgQ9rtxHskbgmAENxgt83eTQSRyxJ8DAThW8WOYhOuhuXIs//ZyA==",
+      "path": "coverlet.msbuild/2.9.0",
+      "hashPath": "coverlet.msbuild.2.9.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",

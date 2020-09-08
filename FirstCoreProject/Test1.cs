@@ -1,8 +1,9 @@
 using System;
 using Xunit;
-namespace FirstLib
+using FirstLib;
+namespace FirstCoreProject.tests
 {
-    public class Test1
+    public class FirstCoreProjectTests
     {
         [Fact]
         public void AdditionTest()

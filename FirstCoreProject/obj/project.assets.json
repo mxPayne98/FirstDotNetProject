@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "coverlet.msbuild/2.9.0": {
+        "type": "package",
+        "build": {
+          "build/coverlet.msbuild.props": {},
+          "build/coverlet.msbuild.targets": {}
+        }
+      },
+      "dotnet-sonarscanner/4.10.0": {
+        "type": "package"
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1629,6 +1639,116 @@
     }
   },
   "libraries": {
+    "coverlet.msbuild/2.9.0": {
+      "sha512": "t+2du2q+z0FFklyP6HGSoKssRj0NequInLvgQ9rtxHskbgmAENxgt83eTQSRyxJ8DAThW8WOYhOuhuXIs//ZyA==",
+      "type": "package",
+      "path": "coverlet.msbuild/2.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Build.Framework.dll",
+        "build/Microsoft.Build.Utilities.Core.dll",
+        "build/Microsoft.CSharp.dll",
+        "build/Microsoft.DotNet.PlatformAbstractions.dll",
+        "build/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "build/Microsoft.Extensions.DependencyInjection.dll",
+        "build/Microsoft.Extensions.DependencyModel.dll",
+        "build/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/Mono.Cecil.Mdb.dll",
+        "build/Mono.Cecil.Pdb.dll",
+        "build/Mono.Cecil.Rocks.dll",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.AppContext.dll",
+        "build/System.Collections.Concurrent.dll",
+        "build/System.Collections.Immutable.dll",
+        "build/System.Collections.NonGeneric.dll",
+        "build/System.Dynamic.Runtime.dll",
+        "build/System.IO.FileSystem.Primitives.dll",
+        "build/System.Linq.Expressions.dll",
+        "build/System.Linq.dll",
+        "build/System.ObjectModel.dll",
+        "build/System.Private.DataContractSerialization.dll",
+        "build/System.Reflection.Emit.ILGeneration.dll",
+        "build/System.Reflection.Emit.Lightweight.dll",
+        "build/System.Reflection.Emit.dll",
+        "build/System.Reflection.Metadata.dll",
+        "build/System.Reflection.TypeExtensions.dll",
+        "build/System.Resources.Reader.dll",
+        "build/System.Runtime.Serialization.Primitives.dll",
+        "build/System.Runtime.Serialization.Xml.dll",
+        "build/System.Text.RegularExpressions.dll",
+        "build/System.Threading.Tasks.Extensions.dll",
+        "build/System.Threading.Tasks.Parallel.dll",
+        "build/System.Threading.Thread.dll",
+        "build/System.Threading.ThreadPool.dll",
+        "build/System.Threading.dll",
+        "build/System.Xml.ReaderWriter.dll",
+        "build/System.Xml.XDocument.dll",
+        "build/System.Xml.XmlDocument.dll",
+        "build/System.Xml.XmlSerializer.dll",
+        "build/coverlet.core.dll",
+        "build/coverlet.core.pdb",
+        "build/coverlet.msbuild.props",
+        "build/coverlet.msbuild.targets",
+        "build/coverlet.msbuild.tasks.dll",
+        "build/coverlet.msbuild.tasks.pdb",
+        "coverlet-icon.png",
+        "coverlet.msbuild.2.9.0.nupkg.sha512",
+        "coverlet.msbuild.nuspec"
+      ]
+    },
+    "dotnet-sonarscanner/4.10.0": {
+      "sha512": "cULyh4rwpcmPobe06/UpnuaiyUJaqnpOGpEXkFCPDRLvHndrwdrhOm7Mzq5E8Sfc7L4n3XbRfriT5QQ7+iEq0w==",
+      "type": "package",
+      "path": "dotnet-sonarscanner/4.10.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "dotnet-sonarscanner.4.10.0.nupkg.sha512",
+        "dotnet-sonarscanner.nuspec",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/SonarQube.Analysis.xml",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Common.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Shim.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.TFS.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Tasks.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.targets",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug.bat",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner.bat",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/conf/sonar-scanner.properties",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.4.0.2170/lib/sonar-scanner-cli-4.4.0.2170.jar",
+        "tools/netcoreapp3.0/any/DotnetToolSettings.xml",
+        "tools/netcoreapp3.0/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/any/SonarQube.Analysis.xml",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Common.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Shim.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.TFS.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Tasks.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/netcoreapp3.0/any/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/netcoreapp3.0/any/Targets/SonarQube.Integration.targets",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug.bat",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/bin/sonar-scanner.bat",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/conf/sonar-scanner.properties",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.4.0.2170/lib/sonar-scanner-cli-4.4.0.2170.jar"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -5511,6 +5631,8 @@
     ".NETCoreApp,Version=v3.1": [
       "FirstLib >= 1.0.0",
       "Microsoft.TestPlatform.TestHost >= 16.7.1",
+      "coverlet.msbuild >= 2.9.0",
+      "dotnet-sonarscanner >= 4.10.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -5521,11 +5643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
+      "projectUniqueName": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
       "projectName": "FirstCoreProject",
-      "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
+      "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\obj\\",
+      "outputPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5539,8 +5661,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
-              "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj"
+            "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
+              "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj"
             }
           }
         }
@@ -5557,6 +5679,14 @@
           "Microsoft.TestPlatform.TestHost": {
             "target": "Package",
             "version": "[16.7.1, )"
+          },
+          "coverlet.msbuild": {
+            "target": "Package",
+            "version": "[2.9.0, )"
+          },
+          "dotnet-sonarscanner": {
+            "target": "Package",
+            "version": "[4.10.0, )"
           },
           "xunit": {
             "target": "Package",
@@ -5585,5 +5715,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package dotnet-sonarscanner 4.10.0 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package dotnet-sonarscanner 4.10.0 supports:\r\n  - netcoreapp2.1 (.NETCoreApp,Version=v2.1) / any\r\n  - netcoreapp3.0 (.NETCoreApp,Version=v3.0) / any",
+      "libraryId": "dotnet-sonarscanner",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1212",
+      "level": "Error",
+      "message": "Invalid project-package combination for dotnet-sonarscanner 4.10.0. DotnetToolReference project style can only contain references of the DotnetTool type ",
+      "libraryId": "dotnet-sonarscanner",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

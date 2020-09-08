@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj": {}
+    "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj": {
+    "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
+        "projectUniqueName": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
         "projectName": "FirstCoreProject",
-        "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
+        "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\obj\\",
+        "outputPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
-                "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj"
+              "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
+                "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj"
               }
             }
           }
@@ -43,6 +43,14 @@
             "Microsoft.TestPlatform.TestHost": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "coverlet.msbuild": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "dotnet-sonarscanner": {
+              "target": "Package",
+              "version": "[4.10.0, )"
             },
             "xunit": {
               "target": "Package",
@@ -72,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
+    "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
+        "projectUniqueName": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
         "projectName": "FirstLib",
-        "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
+        "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\obj\\",
+        "outputPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

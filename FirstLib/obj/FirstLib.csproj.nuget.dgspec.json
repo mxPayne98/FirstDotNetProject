@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {}
+    "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
+    "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
+        "projectUniqueName": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
         "projectName": "FirstLib",
-        "projectPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
+        "projectPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\FirstLib.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\obj\\",
+        "outputPath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

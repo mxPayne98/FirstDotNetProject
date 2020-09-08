@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rhAxlGMijeLnKSt06JbDtenweN0WTphz9di7hVnUeHQmjvpm/99wXypxKsBgXi/+I8/Lenng63r0KcmXvYp1TQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
+  "dgSpecHash": "gGeZ76QU2Hkm2cSse6zntotIrBDiIKbz/j8G1D9bFBxdiEotVBiUuzGDHsLg5bRGEsnYLVHK2Dl7FzXIVZrJuQ==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\dell\\Desktop\\dotNetDemo\\FirstCoreProject\\FirstCoreProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\coverlet.msbuild\\2.9.0\\coverlet.msbuild.2.9.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\dotnet-sonarscanner\\4.10.0\\dotnet-sonarscanner.4.10.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -93,5 +95,24 @@
     "C:\\Users\\dell\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package dotnet-sonarscanner 4.10.0 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package dotnet-sonarscanner 4.10.0 supports:\r\n  - netcoreapp2.1 (.NETCoreApp,Version=v2.1) / any\r\n  - netcoreapp3.0 (.NETCoreApp,Version=v3.0) / any",
+      "libraryId": "dotnet-sonarscanner",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1212",
+      "level": "Error",
+      "message": "Invalid project-package combination for dotnet-sonarscanner 4.10.0. DotnetToolReference project style can only contain references of the DotnetTool type ",
+      "libraryId": "dotnet-sonarscanner",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
