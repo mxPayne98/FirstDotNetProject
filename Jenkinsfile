@@ -6,6 +6,9 @@ pipeline {
             // args '-v $HOME/.m2:/root/.m2'
         }
     }
+    environment {
+        HOME = '/tmp'
+    } 
     stages {
         stage('Preparation') {
             steps {
