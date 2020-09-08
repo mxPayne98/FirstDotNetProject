@@ -14,15 +14,6 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Clean') {
-            steps {
-                sh """
-                #!/bin/bash
-                cd FirstCoreProject
-                dotnet clean
-                """
-            }
-        }
         stage('Build') {
             steps {
                 sh """
