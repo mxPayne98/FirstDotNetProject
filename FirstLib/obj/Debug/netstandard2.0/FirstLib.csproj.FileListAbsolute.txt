@@ -1,0 +1,9 @@
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\bin\Debug\netstandard2.0\FirstLib.deps.json
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\bin\Debug\netstandard2.0\FirstLib.dll
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\bin\Debug\netstandard2.0\FirstLib.pdb
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.AssemblyInfo.cs
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.dll
+C:\Users\dell\Desktop\dotNetDemo\FirstLib\obj\Debug\netstandard2.0\FirstLib.pdb
