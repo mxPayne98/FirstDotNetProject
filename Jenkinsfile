@@ -18,7 +18,6 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                dotnet clean
                 dotnet build FirstSolution.sln
                 """
             }
