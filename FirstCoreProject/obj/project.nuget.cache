@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kG5wWANpBgXXTyk2DEsC25xfUR6VtYIsfsbGKf9LW3eLmnzRwdXu4+tauXInZaBy1GO11+XA126ahpcfHLD2vQ==",
-  "success": false,
+  "dgSpecHash": "QT/gihh7ZpH28XeyFIyLimpnhtGAwNMJH2lF+yepvDJPvWogbYtcMvxp/BFoGTErI88xadRTW9aHRv/I/9cZJg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Bhavya Chawla\\Desktop\\FirstDotNetProject\\FirstCoreProject\\FirstCoreProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\coverlet.msbuild\\2.9.0\\coverlet.msbuild.2.9.0.nupkg.sha512",
-    "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\dotnet-sonarscanner\\4.10.0\\dotnet-sonarscanner.4.10.0.nupkg.sha512",
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -95,24 +94,5 @@
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Bhavya Chawla\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package dotnet-sonarscanner 4.10.0 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Package dotnet-sonarscanner 4.10.0 supports:\r\n  - netcoreapp2.1 (.NETCoreApp,Version=v2.1) / any\r\n  - netcoreapp3.0 (.NETCoreApp,Version=v3.0) / any",
-      "libraryId": "dotnet-sonarscanner",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1212",
-      "level": "Error",
-      "message": "Invalid project-package combination for dotnet-sonarscanner 4.10.0. DotnetToolReference project style can only contain references of the DotnetTool type ",
-      "libraryId": "dotnet-sonarscanner",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

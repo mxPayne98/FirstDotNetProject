@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
@@ -24,6 +24,5 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Bhavya Chawla\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Bhavya Chawla\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
-    <Pkgdotnet-sonarscanner Condition=" '$(Pkgdotnet-sonarscanner)' == '' ">C:\Users\Bhavya Chawla\.nuget\packages\dotnet-sonarscanner\4.10.0</Pkgdotnet-sonarscanner>
   </PropertyGroup>
 </Project>

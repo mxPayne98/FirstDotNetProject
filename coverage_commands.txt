@@ -2,20 +2,21 @@ docker network create jenkins
 
 docker volume create jenkins-docker-certs
 docker volume create jenkins-data
-
+docker volume create sonarqube-data
+docker volume create sonarqube-extensions
 
 docker run --name jenkins-docker --rm --detach --privileged --network jenkins --network-alias docker --env DOCKER_TLS_CERTDIR=/certs --volume jenkins-docker-certs:/certs/client -d --volume jenkins-data:/var/jenkins_home docker:dind
 
 docker run --name jenkins-blueocean --rm --detach --network jenkins --env DOCKER_HOST=tcp://docker:2376 --env DOCKER_CERT_PATH=/certs/client --env DOCKER_TLS_VERIFY=1 --volume jenkins-data:/var/jenkins_home -d --volume jenkins-docker-certs:/certs/client:ro --publish 8090:8080 --publish 50000:50000 jenkinsci/blueocean
 
-docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 --network jenkins sonarqube
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 --network jenkins -v sonarqube-data:/opt/sonarqube/data -v sonarqube-extensions:/opt/sonarqube/extensions sonarqube
 
 
 dotnet test //p:CollectCoverage=true //p:CoverletOutputFormat=opencover
 
 dotnet build-server shutdown
 
-dotnet sonarscanner begin /k:"FirstCoreProject" /d:sonar.host.url=http://localhost:9000 /d:sonar.cs.opencover.reportsPaths="coverage.opencover.xml" /d:sonar.coverage.exclusions="Test1.cs"
+dotnet sonarscanner begin /k:"FirstCoreProject" /d:sonar.host.url=http://localhost:9000 /d:sonar.cs.opencover.reportsPaths="coverage.opencover.xml" /d:sonar.coverage.exclusions="FirstCoreProject/Test1.cs"
 
 dotnet build
 

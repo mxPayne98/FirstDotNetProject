@@ -18,8 +18,8 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                cd FirstCoreProject
-                dotnet build
+                dotnet clean
+                dotnet build FirstSolution.sln
                 """
             }
         }
@@ -27,8 +27,7 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                cd FirstCoreProject
-                dotnet test //p:CollectCoverage=true //p:CoverletOutputFormat=opencover
+                dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
                 """
             }
         }
@@ -36,10 +35,9 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                cd FirstCoreProject
                 dotnet build-server shutdown
-                dotnet sonarscanner begin /k:"FirstCoreProject" /d:sonar.host.url=http://localhost:9000 /d:sonar.cs.opencover.reportsPaths="coverage.opencover.xml" /d:sonar.coverage.exclusions="Test1.cs"
-                dotnet build
+                dotnet sonarscanner begin /k:"FirstCoreProject" /d:sonar.host.url=http://localhost:9000 /d:sonar.cs.opencover.reportsPaths="FirstCoreProject/coverage.opencover.xml" /d:sonar.coverage.exclusions="FirstCoreProject/Test1.cs"
+                dotnet build FirstSolution.sln
                 dotnet sonarscanner end
                 """
             }

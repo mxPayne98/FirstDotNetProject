@@ -2,15 +2,15 @@
 <CoverageSession>
   <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="4" numClasses="4" visitedMethods="8" numMethods="8" />
   <Modules>
-    <Module hash="4AAD7900-3671-48F3-ABD5-2DD154E0701B">
+    <Module hash="DF28702F-5357-4C41-9435-553E30B7793B">
       <ModulePath>FirstLib.dll</ModulePath>
-      <ModuleTime>2020-09-08T09:14:15</ModuleTime>
+      <ModuleTime>2020-09-12T08:28:58</ModuleTime>
       <ModuleName>FirstLib</ModuleName>
       <Files>
-        <File uid="1" fullPath="C:\Users\dell\Desktop\dotNetDemo\FirstLib\Addition.cs" />
-        <File uid="2" fullPath="C:\Users\dell\Desktop\dotNetDemo\FirstLib\Division.cs" />
-        <File uid="3" fullPath="C:\Users\dell\Desktop\dotNetDemo\FirstLib\Multiplication.cs" />
-        <File uid="4" fullPath="C:\Users\dell\Desktop\dotNetDemo\FirstLib\Subtraction.cs" />
+        <File uid="1" fullPath="C:\Users\Bhavya Chawla\Desktop\FirstDotNetProject\FirstLib\Addition.cs" />
+        <File uid="2" fullPath="C:\Users\Bhavya Chawla\Desktop\FirstDotNetProject\FirstLib\Division.cs" />
+        <File uid="3" fullPath="C:\Users\Bhavya Chawla\Desktop\FirstDotNetProject\FirstLib\Multiplication.cs" />
+        <File uid="4" fullPath="C:\Users\Bhavya Chawla\Desktop\FirstDotNetProject\FirstLib\Subtraction.cs" />
       </Files>
       <Classes>
         <Class>

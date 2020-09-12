@@ -50,10 +50,6 @@
               "target": "Package",
               "version": "[2.9.0, )"
             },
-            "dotnet-sonarscanner": {
-              "target": "Package",
-              "version": "[4.10.0, )"
-            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"

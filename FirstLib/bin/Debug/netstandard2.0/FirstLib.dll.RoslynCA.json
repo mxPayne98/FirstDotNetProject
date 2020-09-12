@@ -1,0 +1,284 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.7.0.0",
+        "fileVersion": "3.7.0-6.20418.4 (9b878f99)",
+        "semanticVersion": "3.7.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'a' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Division.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 24,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'b' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Division.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 24,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'a' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Multiplication.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 24,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'b' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Multiplication.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 24,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'a' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Subtraction.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 24,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'b' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Subtraction.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 24,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Division.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Multiplication.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Subtraction.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'a' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Addition.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 24,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'b' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Bhavya%20Chawla/Desktop/FirstDotNetProject/FirstLib/Addition.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 24,
+                  "endLine": 6,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1128": {
+          "id": "S1128",
+          "shortDescription": "Unused \"using\" should be removed",
+          "fullDescription": "Although unnecessary using won't change anything to the produced application, removing them:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1128",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
