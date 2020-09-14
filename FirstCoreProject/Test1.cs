@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 using FirstLib;
 namespace FirstCoreProject.tests
@@ -27,27 +26,27 @@ namespace FirstCoreProject.tests
             Assert.Equal(1, ob.calculate());
         }
 
-    //     [Fact]
-    //     public void MultiplicationTest()
-    //     {
-    //         //Given
-    //         var ob = new Multiplication(2, 2);
-    //         //When
+        [Fact]
+        public void MultiplicationTest()
+        {
+            //Given
+            var ob = new Multiplication(2, 2);
+            //When
 
-    //         //Then
-    //         Assert.Equal(4, ob.calculate());
-    //     }
+            //Then
+            Assert.Equal(4, ob.calculate());
+        }
 
 
-    //     [Fact]
-    //     public void DivisionTest()
-    //     {
-    //         //Given
-    //         var ob = new Division(2, 2);
-    //         //When
+        [Fact]
+        public void DivisionTest()
+        {
+            //Given
+            var ob = new Division(2, 2);
+            //When
 
-    //         //Then
-    //         Assert.Equal(1, ob.calculate());
-    //     }
+            //Then
+            Assert.Equal(1, ob.calculate());
+        }
     }
 }
